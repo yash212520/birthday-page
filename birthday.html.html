@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Happy Birthday Swetiee!</title>
+    <style>
+        body {
+            text-align: center;
+            background: linear-gradient(135deg, #a8e6ff, #d3f4ff);
+            font-family: 'Georgia', serif;
+            color: #333;
+            overflow: hidden;
+        }
+        h1 {
+            font-size: 3em;
+            font-weight: bold;
+            margin-top: 50px;
+            animation: fadeIn 2s ease-in-out;
+        }
+        .heart {
+            font-size: 2em;
+            color: #ff69b4;
+            animation: heartbeat 1.5s infinite;
+        }
+        @keyframes fadeIn {
+            from { opacity: 0; }
+            to { opacity: 1; }
+        }
+        @keyframes heartbeat {
+            0%, 100% { transform: scale(1); }
+            50% { transform: scale(1.2); }
+        }
+        .gallery {
+            margin-top: 30px;
+            display: flex;
+            justify-content: center;
+            gap: 20px;
+            flex-wrap: wrap;
+        }
+        .gallery img {
+            width: 200px;
+            height: 200px;
+            border-radius: 10px;
+            animation: fadeIn 3s ease-in-out;
+            box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
+        }
+        .message {
+            margin-top: 20px;
+            font-size: 1.5em;
+            font-weight: bold;
+            animation: fadeIn 4s ease-in-out;
+        }
+    </style>
+</head>
+<body>
+    <h1>Happy Birthday Swetiee! <span class="heart">💗</span></h1>
+    
+    <!-- Gallery of Birthday Images -->
+    <div class="gallery">
+        <img src="https://i.ibb.co/4ZsxZKMW/image2.jpg" alt="Birthday Image 2">
+        <img src="https://i.ibb.co/yTZm7QF/image3.jpg" alt="Birthday Image 3">
+        <img src="https://i.ibb.co/7tNMBQY3/image4.jpg" alt="Birthday Image 4">
+        <img src="https://i.ibb.co/gFMYgZYm/image5.jpg" alt="Birthday Image 5">
+        <img src="https://i.ibb.co/33Vn2TQ/image6.jpg" alt="Birthday Image 6">
+    </div>
+
+    <!-- Birthday Message -->
+    <div class="message">May your day be filled with love, laughter, and endless joy. You are truly special, Swetiee! 💖🎉</div>
+</body>
+</html>
